@@ -1,0 +1,32 @@
+/* styles.css */
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/gilroy-regular.woff') format('woff');
+}
+
+h1 {
+  color: #666999;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  background-color: #F0F0F0;
+}
+
+.btn-primary {
+  background-color: #666999;
+  border-color: transparent;
+}
+
+td {
+  vertical-align: middle;
+}
+
+.editing td {
+  background-color: #FFD700 !important;
+}
+
+.updateBtn {
+  display: none;
+}
